@@ -38,9 +38,9 @@ build_auth:
 
 ## build_logger: builds the logger binary as a linux executable
 build_logger:
-    @echo Building broker binary...
-    chdir .\logger-service && set GOOS=linux&& set GOARCH=amd64&& set CGO_ENABLED=0 && go build -o ${LOGGER_BINARY} ./cmd/api
-    @echo Done!
+	@echo Building broker binary...
+	chdir .\logger-service && set GOOS=linux&& set GOARCH=amd64&& set CGO_ENABLED=0 && go build -o ${LOGGER_BINARY} ./cmd/api
+	@echo Done!
 
 
 ## build_front: builds the frone end binary
