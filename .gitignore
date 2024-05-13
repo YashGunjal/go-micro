@@ -4,6 +4,8 @@ brokerApp
 
 loggerServiceApp
 
+mailerApp
+
 frontApp.exe
 
 db-data
